@@ -4,7 +4,8 @@
     xmlns:tools=" http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:ignore="MissingPrefix">
+    tools:ignore="MissingPrefix"
+    android:background="@color/colorPrimary">
 
     <TextView
         android:id="@+id/ttitleSplash"
@@ -15,5 +16,5 @@
         android:layout_centerHorizontal="true"
         android:textSize="100sp"
         fontPath="fonts/loveloline.otf"
-        />
+        android:textColor="@color/colorAccent"/>
 </RelativeLayout>
