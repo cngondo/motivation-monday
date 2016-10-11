@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Motivation Monday</string>
     <string name="title">MM</string>
+    <string name="LOGIN">LOGIN</string>
+    <string name="skip">SKIP</string>
+    <string name="slogan">IT STARTS WITH YOU</string>
 </resources>
