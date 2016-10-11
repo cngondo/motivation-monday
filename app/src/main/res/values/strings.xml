@@ -4,4 +4,9 @@
     <string name="LOGIN">LOGIN</string>
     <string name="skip">SKIP</string>
     <string name="slogan">IT STARTS WITH YOU</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_with_google">LOGIN WITH GOOGLE</string>
+    <string name="login_with_facebook">LOGIN WITH FACEBOOK</string>
 </resources>

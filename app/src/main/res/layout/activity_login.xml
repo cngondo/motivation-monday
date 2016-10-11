@@ -5,7 +5,7 @@
     android:id="@+id/activity_login"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.cerebral.motivationmonday.LoginActivity">
+    tools:context="com.cerebral.motivationmonday.authentication.LoginActivity">
 
     <ImageView
         style="@style/BackgroundImageViewLogin"
@@ -81,6 +81,4 @@
         android:layout_alignRight="@+id/titlelogin"
         android:layout_alignEnd="@+id/titlelogin"
         android:textColor="@color/colorAccent"/>
-
-
 </RelativeLayout>

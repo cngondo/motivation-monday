@@ -1,0 +1,54 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cerebral.motivationmonday.authentication.LoginFragment">
+
+    <ImageView
+        style="@style/BackgroundImageViewLogin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:id="@+id/imageView"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="@string/login_with_google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:id="@+id/googlelogin"
+            android:textColor="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_google_plus_white_36dp"
+            android:drawablePadding="3dp"
+            fontPath="fonts/poppinslight.ttf"
+            android:layout_marginBottom="89dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/facebooklogin"
+            android:layout_alignStart="@+id/facebooklogin"
+            android:layout_alignRight="@+id/facebooklogin"
+            android:layout_alignEnd="@+id/facebooklogin" />
+
+        <Button
+            android:text="@string/login_with_facebook"
+            android:background="@color/colorPrimary"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/facebooklogin"
+            android:drawablePadding="3dp"
+            android:textColor="@color/colorAccent"
+            android:drawableLeft="@drawable/ic_facebook_box_white_36dp"
+            fontPath="fonts/poppinslight.ttf"
+            android:layout_marginBottom="107dp"
+            android:layout_alignBottom="@+id/googlelogin"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</FrameLayout>
