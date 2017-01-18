@@ -1,0 +1,10 @@
+# Java and Gradle #
+############
+build/
+.gradle/
+local.properties
+gradlew
+gradlew.bat
+motivation-monday.iml
+.gitignore
+.idea
